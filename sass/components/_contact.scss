@@ -1,0 +1,29 @@
+.contact {
+  display: flex;
+  width: 321px;
+  justify-content: space-between;
+  margin-left: auto;
+  align-items: center;
+}
+.contact__envelope {
+  display: flex;
+  width: 161px;
+  justify-content: space-between;
+  align-items: center;
+  &:hover,
+  &:focus {
+    .envelope {
+      fill: getColor('accent');
+    }
+  }
+  &:hover,
+  &:focus {
+    .email {
+      color: getColor('accent');
+    }
+  }
+}
+.contact__smartphon {
+  @extend .contact__envelope;
+  width: 130px;
+}

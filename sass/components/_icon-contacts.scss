@@ -1,0 +1,7 @@
+.envelope {
+  fill: getColor('secondary');
+  transition: $trensFill;
+}
+.smartphon {
+  @extend .envelope;
+}

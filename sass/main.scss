@@ -1,3 +1,10 @@
-body {
-  background-color: red;
-}
+@import 'components/reset';
+@import 'utils/vars';
+@import 'components/global-styles';
+@import 'components/header';
+@import 'components/logo';
+@import 'components/navigation';
+@import 'components/link';
+@import 'components/contact';
+@import 'components/link-contacts';
+@import 'components/icon-contacts';

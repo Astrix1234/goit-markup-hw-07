@@ -1,0 +1,7 @@
+.email {
+  color: getColor('secondary');
+  transition: $trensColor;
+}
+.telephon {
+  @extend .email;
+}
