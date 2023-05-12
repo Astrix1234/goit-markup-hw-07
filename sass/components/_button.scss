@@ -1,6 +1,6 @@
 .btn {
   font-weight: 700;
-  font-size: 16px;
+  font-size: $fontSizeBig;
   letter-spacing: 0.06em;
   color: getColor('accentLight');
   background-color: getColor('accent');

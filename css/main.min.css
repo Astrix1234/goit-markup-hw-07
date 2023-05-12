@@ -28,11 +28,6 @@ a {
   color: #212121;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -191,4 +186,62 @@ a {
 .btn:hover, .btn:focus {
   background-color: #f5f4fa;
   color: #212121;
+}
+
+.logos {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.logo-office {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  padding-left: 100px;
+  padding-top: 25px;
+  background: #f5f4fa;
+}
+
+.descriptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.descriptions__title {
+  margin-bottom: 10px;
+}
+
+.title-text {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.1;
+}
+
+.text {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+  color: #757575;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section__title {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  line-height: 1.2;
 }/*# sourceMappingURL=main.min.css.map */
