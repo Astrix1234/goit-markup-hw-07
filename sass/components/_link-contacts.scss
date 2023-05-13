@@ -7,10 +7,5 @@
   transition: $trensColor;
 }
 .telephon {
-  color: getColor('secondary');
-  font-weight: 500;
-  font-size: $fontSizeSmoll;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
-  transition: $trensColor;
+  @extend .email;
 }
