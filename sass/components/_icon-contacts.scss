@@ -3,5 +3,6 @@
   transition: $trensFill;
 }
 .smartphon {
-  @extend .envelope;
+  fill: getColor('secondary');
+  transition: $trensFill;
 }

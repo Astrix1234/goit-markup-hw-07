@@ -1,0 +1,20 @@
+.media-icons {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 12px;
+  padding-top: 12px;
+  transition: $transBgColor;
+  &:hover,
+  &:focus {
+    background-color: getColor('accent');
+  }
+  &:hover,
+  &:focus {
+    .icon {
+      fill: getColor('accentLight');
+    }
+  }
+}

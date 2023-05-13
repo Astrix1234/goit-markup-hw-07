@@ -1,0 +1,8 @@
+.comment {
+  font-weight: 700;
+  font-size: $fontSizeSmoll;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: getColor('accentLight');
+}
