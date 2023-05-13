@@ -413,70 +413,73 @@
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="buton-modal" data-modal-close><b>X</b></button>
-        <form>
-          <h3 class="order-title">Zostaw swoje dane w formularzu poniżej</h3>
-          <div class="name">
-            <label class="order-label" for="user-name"
-              >Imie
-              <input
-                class="order-input"
-                type="text"
-                name="name"
-                id="user-name"
-              />
-            </label>
-          </div>
-          <div class="phone">
-            <label class="order-label" for="user-phone"
-              >Telefon
-              <input
-                class="order-input"
-                type="tel"
-                name="phone"
-                id="user-phone"
-              />
-            </label>
-          </div>
-          <div class="email">
-            <label class="order-label" for="user-email"
-              >Email
-              <input
-                class="order-input"
-                type="email"
-                name="mail"
-                id="user-email"
-              />
-            </label>
-          </div>
-          <label class="order-label-comment" for="user-comment"
-            >Komentarz
-            <textarea
-              class="order-textarea"
-              name="order"
-              id="user-comment"
-              placeholder="Wprowadź tekst"
-            ></textarea>
-          </label>
-          <label class="acceptance-label" for="user-acceptance">
+      <form class="order">
+        <button class="order__clouse btn-close" data-modal-close>
+          <b>X</b>
+        </button>
+        <h3 class="order__title title-form">
+          Zostaw swoje dane w formularzu poniżej
+        </h3>
+        <div class="order__name-container">
+          <label class="order__label" for="user-name"
+            >Imie
             <input
-              class="acceptance-input checkbox-hidden"
-              type="checkbox"
-              name="acceptance"
-              id="user-acceptance"
+              class="order__input"
+              type="text"
+              name="name"
+              id="user-name"
             />
-            <div class="acceptance-checked">
-              <svg class="checked-bacground" width="16" height="15">
-                <use href="images/icons.svg#icon-check"></use>
-              </svg>
-            </div>
-            Oświadczam iż akceptuję <a href="">Regulamin</a> i
-            <a href="">Politykę Prywatności</a>.
           </label>
-          <button type="submit" class="order-button" lang="pl">Wyślij</button>
-        </form>
-      </div>
+        </div>
+        <div class="order__telephone-container">
+          <label class="order__label" for="user-phone"
+            >Telefon
+            <input
+              class="order__input"
+              type="tel"
+              name="phone"
+              id="user-phone"
+            />
+          </label>
+        </div>
+        <div class="order__email-container">
+          <label class="order__label" for="user-email"
+            >Email
+            <input
+              class="order__input"
+              type="email"
+              name="mail"
+              id="user-email"
+            />
+          </label>
+        </div>
+        <label class="order__label-comment" for="user-comment"
+          >Komentarz
+          <textarea
+            class="order__textarea"
+            name="order"
+            id="user-comment"
+            placeholder="Wprowadź tekst"
+          ></textarea>
+        </label>
+        <label class="order__label-acceptance" for="user-acceptance">
+          <input
+            class="order__checkbox order__checkbox--hidden"
+            type="checkbox"
+            name="acceptance"
+            id="user-acceptance"
+          />
+          <div class="order__checkbex-substitute">
+            <svg class="order__checkbex-background" width="16" height="15">
+              <use href="images/icons.svg#icon-check"></use>
+            </svg>
+          </div>
+          Oświadczam iż akceptuję
+          <a class="link-accept" href="">Regulamin</a> i
+          <a class="link-accept" href="">Politykę Prywatności</a>
+        </label>
+        <button type="submit" class="order__btn btn" lang="pl">Wyślij</button>
+      </form>
     </div>
     <script src="./js/modal.js"></script>
   </body>
