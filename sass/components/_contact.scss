@@ -4,40 +4,41 @@
   justify-content: space-between;
   margin-left: auto;
   align-items: center;
-}
-.contact__email {
-  display: flex;
-  width: 161px;
-  justify-content: space-between;
-  align-items: center;
-  &:hover,
-  &:focus {
-    .envelope {
-      fill: getColor('accent');
+
+  &__email {
+    display: flex;
+    width: 161px;
+    justify-content: space-between;
+    align-items: center;
+    &:hover,
+    &:focus {
+      .icon-envelope {
+        fill: getColor('accent');
+      }
+    }
+    &:hover,
+    &:focus {
+      .email {
+        color: getColor('accent');
+      }
     }
   }
-  &:hover,
-  &:focus {
-    .email {
-      color: getColor('accent');
+  &__telephon {
+    display: flex;
+    width: 130px;
+    justify-content: space-between;
+    align-items: center;
+    &:hover,
+    &:focus {
+      .icon-smartphon {
+        fill: getColor('accent');
+      }
     }
-  }
-}
-.contact__telephon {
-  display: flex;
-  width: 130px;
-  justify-content: space-between;
-  align-items: center;
-  &:hover,
-  &:focus {
-    .smartphon {
-      fill: getColor('accent');
-    }
-  }
-  &:hover,
-  &:focus {
-    .telephon {
-      color: getColor('accent');
+    &:hover,
+    &:focus {
+      .telephon {
+        color: getColor('accent');
+      }
     }
   }
 }

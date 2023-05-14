@@ -2,21 +2,22 @@
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.footer__container {
-  display: flex;
-}
-.footer__contacts {
-  margin-right: 70px;
-}
 
-.footer__address {
-  margin-top: 20px;
-}
-.footer__item {
-  margin-top: 9px;
-}
-.footer__comment {
-  margin-bottom: 20px;
-  margin-top: 12px;
+  &__container {
+    display: flex;
+  }
+  &__contacts {
+    margin-right: 70px;
+  }
+
+  &__address {
+    margin-top: 20px;
+  }
+  &__links {
+    margin-top: 9px;
+  }
+  &__invitation {
+    margin-bottom: 20px;
+    margin-top: 12px;
+  }
 }

@@ -2,11 +2,12 @@
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
-}
-.header__container {
-  display: flex;
-  align-items: center;
-}
-.header__logo {
-  margin-right: 93px;
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 93px;
+  }
 }

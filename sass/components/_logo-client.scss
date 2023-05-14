@@ -1,4 +1,4 @@
-.logo4 {
+.logo-client {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -13,7 +13,7 @@
   }
   &:hover,
   &:focus {
-    .icon-logo {
+    .icon-logo-client {
       fill: getColor('accent');
     }
   }

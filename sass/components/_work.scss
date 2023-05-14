@@ -1,12 +1,13 @@
 .work {
   display: flex;
   gap: 45px;
-}
-.work__item {
-  position: relative;
-}
-.work__title {
-  position: absolute;
-  top: 224px;
-  margin: 0;
+
+  &__item {
+    position: relative;
+  }
+  &__title {
+    position: absolute;
+    top: 224px;
+    margin: 0;
+  }
 }
