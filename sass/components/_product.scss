@@ -9,7 +9,7 @@
   }
   &:hover,
   &:focus {
-    .product__text-product {
+    .product__description {
       transform: translateY(0);
     }
   }
@@ -20,7 +20,7 @@
     position: relative;
     overflow: hidden;
   }
-  &__text-product {
+  &__description {
     margin: 0;
     position: absolute;
     width: 100%;
@@ -32,14 +32,32 @@
     padding-right: 45px;
     transform: translateY(100%);
     transition: $transTransform;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: getColor('accent');
+    letter-spacing: 0.03em;
+    color: getColor('accentLight');
+    padding-top: 49px;
+    padding-left: 24px;
+    padding-right: 45px;
+  }
+  &__container-text {
+    border: 1px solid #eeeeee;
   }
   &__title {
     margin-top: 20px;
     margin-left: 24px;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
   }
-  &__description {
+  &__text {
     margin-top: 4px;
     margin-bottom: 20px;
     margin-left: 24px;
+    font-size: $fontSizeBig;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: getColor('secondary');
   }
 }

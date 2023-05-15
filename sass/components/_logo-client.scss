@@ -1,7 +1,3 @@
-.icon-logo-client {
-  fill: #afb1b8;
-  transition: $trensFill;
-}
 .logo-client {
   width: 170px;
   height: 92px;
@@ -15,9 +11,13 @@
   &:focus {
     border: 1px solid getColor('accent');
   }
+  &__item {
+    fill: #afb1b8;
+    transition: $trensFill;
+  }
   &:hover,
   &:focus {
-    .icon-logo-client {
+    .logo-client__item {
       fill: getColor('accent');
     }
   }

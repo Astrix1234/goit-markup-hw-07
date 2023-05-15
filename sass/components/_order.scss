@@ -7,14 +7,23 @@
   cursor: auto;
   margin: auto;
 
-  &__clouse {
+  &__btn-clouse {
     position: absolute;
     top: 8px;
     left: 490px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: getColor('accentLight');
+    cursor: pointer;
   }
   &__title {
     margin-top: 40px;
     margin-bottom: 12px;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
     font-size: 20px;
     line-height: 1.15;
     letter-spacing: 0.03em;
